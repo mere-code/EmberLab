@@ -1,0 +1,15 @@
+# Godot 本地导入与编辑器缓存
+.godot/
+
+# 导出产物与本机配置
+build/
+exports/
+export_credentials.cfg
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# 自动生成报告保留本地，按需作为交付附件提供
+tools/physics_lab/reports/*
+!tools/physics_lab/reports/.gitkeep

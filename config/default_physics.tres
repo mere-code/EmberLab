@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="EmberPhysicsConfig" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://config/physics_config.gd" id="1_config"]
+
+[resource]
+script = ExtResource("1_config")
+physics_hz = 60
+move_speed = 180.0
+ground_acceleration = 1400.0
+air_acceleration = 700.0
+gravity = 1100.0
+jump_speed = 380.0
+max_horizontal_speed = 360.0
+max_rise_speed = 560.0
+max_fall_speed = 700.0
+initial_heat = 70.0
+maximum_heat = 100.0
+spread_loss_per_second = 2.0
+compact_loss_per_second = 0.5
+full_wind_extra_loss_per_second = 4.0
+full_strength_acceleration = 1500.0
+spread_multiplier = 1.0
+compact_multiplier = 0.15
+bounce_min_heat = 35.0
+bounce_heat_cost = 25.0
+bounce_speed_min = 480.0
+bounce_speed_max = 560.0
+failed_contact_heat_damage = 30.0
